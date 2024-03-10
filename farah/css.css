@@ -1,0 +1,115 @@
+body {
+    background-color: #EADFB4;
+}
+.heads {
+    background-color:#F6995C ;
+    text-align: center;
+    box-shadow: inset;
+    border-style :double;
+    border-radius : 10px;
+}
+.kata1, .kata2, .kata3, .kata4 {
+    overflow: hidden; /* Mencegah elemen lainnya menyusup di bawah float */
+    text-align: center;
+    box-sizing: border-box;
+    border-style: dotted;
+    margin-top  : 1cm;
+    margin-bottom  : 1cm;
+    margin-left : 0.5cm;
+    margin-right : 0.5cm;
+    background-color: #9BB0C1;
+}
+.kata1 img, .kata3 img, .kata4 img {
+    float: left; /* Mengapungkan gambar ke kiri */
+    margin-right: 10px; /* Memberikan jarak antara gambar dan paragraf */
+    max-width : auto;
+    height: 250px;
+}
+
+/* styles.css */
+.kalimat1 {
+    margin-top : 60px;
+    text-align: center;
+    font-style: oblique;
+}
+.kalimat2 {
+    margin-top : 40px;
+    text-align: center;
+    font-style: oblique;
+}
+.kalimat3 {
+    margin-top : 40px;
+    text-align: center;
+    font-style: oblique;
+}
+.kalimat4 {
+    margin-top : 50px;
+    text-align: center;
+    font-style: oblique;
+}
+
+.p1, .q1, .r1,.s1 {
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+}
+.p2, .q2, .r2,.s2 {
+    opacity: 0;
+    animation: fadeIn 4s ease-in-out forwards;
+}
+.p3, .q3, .r3,.s3 {
+    opacity: 0;
+    animation: fadeIn 5s ease-in-out forwards;
+}
+.p4, .q4,.r4,.s4 {
+    opacity: 0;
+    animation: fadeIn 6s ease-in-out forwards;
+}
+
+.kata {
+    text-align: center;
+}
+.but1, .but2,.but3, .but4 {
+    display : none;
+}
+.but {
+    text-align: center;
+}
+.but button {
+    margin-left: 25px;
+    margin-right: 25px;
+    width :75px;
+    background-color:#EADFB4 ;
+}
+.custom {
+    float: left; /* Mengapungkan gambar ke kiri */
+    margin-right: 10px; /* Memberikan jarak antara gambar dan paragraf */
+    width : 250px
+}
+
+.hidden {
+    justify-content: center;
+    align-items: center;
+    margin-right : 2.5cm;
+    margin-left : 2.5cm;
+    
+}
+.hidden img {
+    text-align: center;
+    max-width: auto;
+    max-height: 170px;
+    margin : 2.5px;
+    display : none;
+}
+.b1,.b2 {
+    text-align: center;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
